@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "assert.h"
-#include "compress40.h"
+#include <compress40.h>
 
 static void (*compress_or_decompress)(FILE *input) = compress40;
 
